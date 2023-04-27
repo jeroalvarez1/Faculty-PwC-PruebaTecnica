@@ -32,7 +32,8 @@ Bonus:
 
 # Pasos para ejecutar el sistema:  
 
-* Una vez clonado el repositorio ir al archivo src/main/resources/application.properties y cambiar spring.datasource.username = <nombre de usuario> por el nombre de usuario de la base de datos y spring.datasource.password= <contraseña> por la contraseña de dicho usuario  
+* Crear la base de datos faculty    
+* Una vez clonado el repositorio ir al archivo src/main/resources/application.properties y cambiar spring.datasource.username = <nombre de usuario> por el nombre de usuario de la base de datos y spring.datasource.password= <contraseña> por la contraseña de dicho usuario 
 * Ejecutar en comando mvn install en la carpeta raiz del sistema  
 * Para fianlizar ejecutar el comando java -jar faculty-0.0.1-SNAPSHOT.jar en la carpeta target del proyecto para ejecutar el sistema  
 
