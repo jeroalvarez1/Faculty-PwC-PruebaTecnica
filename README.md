@@ -27,8 +27,8 @@ Bonus:
 Las consultas que se le pueden realizar a la API desarrollada son:  
 
 Civil Status  
-    Agegar Civil Status  
-    /api/civilstatus - POST  
+    Agegar Civil Status - POST  
+    /api/civilstatus  
         {  
             "name": "Soltero"  
         }  
