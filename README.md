@@ -164,21 +164,21 @@ Student
     Agregar nuevo estudiante  
         /api/students - POST  
             {  
-                "firstName": "Piter",  
-                "lastNames": "Alvarez", 
-                "dni": "41786523"  
+                "firstName": "Pedro",  
+                "lastNames": "Picapiedras", 
+                "dni": "01276756"  
             }  
 
             {  
-                "firstName": "Juan",  
-                "lastNames": "Davis",  
-                "dni": "41756423"  
+                "firstName": "Romina",  
+                "lastNames": "Ramirez",  
+                "dni": "25678967"  
             } 
             
             {  
                 "firstName": "Andres",  
-                "lastNames": "Perez",  
-                "dni": "40386523"  
+                "lastNames": "De los Angeles",  
+                "dni": "41768967"  
             }  
 
 Teacher  
