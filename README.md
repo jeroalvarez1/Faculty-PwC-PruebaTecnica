@@ -64,129 +64,129 @@ Course
             }  
 
     Agregar estudiante a curso  
-        /api/courses/add/{course_id}/student/{student_id} - GET
+        /api/courses/add/{course_id}/student/{student_id} - GET  
         
-    Quitar todos los estudiantes de un curso
-        /api/courses/remove/{course_id} - GET
+    Quitar todos los estudiantes de un curso  
+        /api/courses/remove/{course_id} - GET  
 
-    Quitar un estudiante de un curso
-        /api/courses/remove/{course_id}/student/{student_id} - GET
+    Quitar un estudiante de un curso  
+        /api/courses/remove/{course_id}/student/{student_id} - GET  
 
-Department
-    Agregar un departamento
-        /api/departments - POST
-            {
-                "name": "Lengua"
-            }
+Department  
+    Agregar un departamento  
+        /api/departments - POST  
+            {  
+                "name": "Lengua"  
+            }  
 
-            {
-                "name": "Matematica"
-            }
+            {  
+                "name": "Matematica"  
+            }  
 
-            {
-                "name": "Ciencias Naturales"
-            }
+            {  
+                "name": "Ciencias Naturales"  
+            }  
 
-Person
-    Cambiar estado civil de una persona
-        /api/persons/{person_id}/changestatus/{status_id} - GET
+Person  
+    Cambiar estado civil de una persona  
+        /api/persons/{person_id}/changestatus/{status_id} - GET  
 
-Section
-    Agregar nueva seccion
-        /api/sections - POST
-            {
-                "name": "Laboratorio"
-            }
+Section  
+    Agregar nueva seccion  
+        /api/sections - POST  
+            {  
+                "name": "Laboratorio"  
+            }  
 
-            {
-                "name": "Cocina"
-            }
+            {  
+                "name": "Cocina"  
+            }  
 
-            {
-                "name": "Puerta"
-            }
+            {  
+                "name": "Puerta"  
+            }  
 
-ServiceStaff
-    Cambiar empleado de servicio de seccion
-        /api/services/{serviceStaff_id}/changesection/{section_id} - GET
+ServiceStaff  
+    Cambiar empleado de servicio de seccion  
+        /api/services/{serviceStaff_id}/changesection/{section_id} - GET  
 
-    Agregar nuevo empleado de servicio
-        /api/services - POST
-            {
-                "firstName": "Piter",
-                "lastNames": "Alvarez",
-                "dni": "41786523",
-                "yearIncorporation": 2020,
-                "officeNumber": 25
-            }
+    Agregar nuevo empleado de servicio  
+        /api/services - POST  
+            { 
+                "firstName": "Piter",  
+                "lastNames": "Alvarez",  
+                "dni": "41786523", 
+                "yearIncorporation": 2020, 
+                "officeNumber": 25  
+            }  
 
-            {
-                "firstName": "Juan",
-                "lastNames": "Davis",
-                "dni": "41756423",
-                "yearIncorporation": 2015,
-                "officeNumber": 21
-            }
+            {  
+                "firstName": "Juan",  
+                "lastNames": "Davis",  
+                "dni": "41756423",  
+                "yearIncorporation": 2015,  
+                "officeNumber": 21  
+            }  
 
-            {
-                "firstName": "Andres",
-                "lastNames": "Perez",
-                "dni": "40386523",
-                "yearIncorporation": 2021,
-                "officeNumber": 5
-            }
+            {  
+                "firstName": "Andres", 
+                "lastNames": "Perez", 
+                "dni": "40386523",  
+                "yearIncorporation": 2021,  
+                "officeNumber": 5  
+            }  
 
 
-Student
-    Agregar nuevo estudiante
-        /api/students - POST
-            {
-                "firstName": "Piter",
-                "lastNames": "Alvarez",
-                "dni": "41786523"
-            }
+Student  
+    Agregar nuevo estudiante  
+        /api/students - POST  
+            {  
+                "firstName": "Piter",  
+                "lastNames": "Alvarez", 
+                "dni": "41786523"  
+            }  
 
-            {
-                "firstName": "Juan",
-                "lastNames": "Davis",
-                "dni": "41756423"
-            }
+            {  
+                "firstName": "Juan",  
+                "lastNames": "Davis",  
+                "dni": "41756423"  
+            } 
+            
+            {  
+                "firstName": "Andres",  
+                "lastNames": "Perez",  
+                "dni": "40386523"  
+            }  
 
-            {
-                "firstName": "Andres",
-                "lastNames": "Perez",
-                "dni": "40386523"
-            }
+Teacher  
+    Cambiar profesor de departamento  
+        /api/teachers/{teacher_id}/changedepartment/{department_id} - GET  
 
-Teacher
-    Cambiar profesor de departamento
-        /api/teachers/{teacher_id}/changedepartment/{department_id} - GET
+    Obtener profesores de un departamento  
+        /api/teachers/department/{department_id} - GET  
 
-    Obtener profesores de un departamento
-        /api/teachers/department/{department_id} - GET
+    Agregar profesores  
+        /api/teachers  
+            {  
+                "firstName": "Bruno",  
+                "lastNames": "Galdamez",  
+                "dni": "41786467",  
+                "yearIncorporation": 2010,  
+                "officeNumber": 2  
+            }  
 
-    Agregar profesores
-        /api/teachers
-            {
-                "firstName": "Bruno",
-                "lastNames": "Galdamez",
-                "dni": "41786467",
-                "yearIncorporation": 2010,
-                "officeNumber": 2
-            }
+            {  
+                "firstName": "Alejandra",  
+                "lastNames": "Tablado",  
+                "dni": "30675621",  
+                "yearIncorporation": 2015,  
+                "officeNumber": 1  
+            }  
 
-            {
-                "firstName": "Alejandra",
-                "lastNames": "Tablado",
-                "dni": "30675621",
-                "yearIncorporation": 2015,
-                "officeNumber": 1
-            }
-
-            {
-                "firstName": "Andres",
-                "lastNames": "Gomez",
-                "dni": "43346523",
-                "yearIncorporation": 2017,
-                "officeNumber": 9
-            }
+            {  
+                "firstName": "Andres",  
+                "lastNames": "Gomez",  
+                "dni": "43346523",  
+                "yearIncorporation": 2017,  
+                "officeNumber": 9  
+            }  
