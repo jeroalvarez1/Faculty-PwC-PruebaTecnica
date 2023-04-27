@@ -25,6 +25,7 @@ Bonus:
 * Realizar tests que prueben la funcionalidad realizada.  
 
 Las consultas que se le pueden realizar a la API desarrollada son:  
+
 Civil Status  
     Agegar Civil Status  
     /api/civilstatus - POST  
