@@ -25,44 +25,44 @@ Bonus:
 * Realizar tests que prueben la funcionalidad realizada.  
 
 Las consultas que se le pueden realizar a la API desarrollada son:  
-Civil Status
-    Agegar Civil Status
-    /api/civilstatus - POST
-        {
-            "name": "Soltero"
-        }
+Civil Status  
+    Agegar Civil Status  
+    /api/civilstatus - POST  
+        {  
+            "name": "Soltero"  
+        }  
 
-        {
-            "name": "Casado"
-        }
+        {  
+            "name": "Casado"  
+        }  
 
-        {
-            "name": "Viudo"
-        }
+        {  
+            "name": "Viudo"  
+        }  
 
-Course
-    Obtener un curso
-        /api/courses/{course_id} - GET
+Course  
+    Obtener un curso  
+        /api/courses/{course_id} - GET  
 
-    Obtener estudiantes de un curso
-        /api/courses/{course_id}/students - GET
+    Obtener estudiantes de un curso  
+        /api/courses/{course_id}/students - GET  
 
 
-    Agregar un curso 
-        /api/courses - POST
-            {
-                "name": "Primero A"
-            }
+    Agregar un curso  
+        /api/courses - POST  
+            {  
+                "name": "Primero A"  
+            }  
             
-            {
-                "name": "Segundo B"
-            }
+            {  
+                "name": "Segundo B"  
+            }  
 
-            {
-                "name": "Segundo A"
-            }
+            {  
+                "name": "Segundo A"  
+            }  
 
-    Agregar estudiante a curso
+    Agregar estudiante a curso  
         /api/courses/add/{course_id}/student/{student_id} - GET
         
     Quitar todos los estudiantes de un curso
