@@ -1,4 +1,4 @@
-<h1 style="font-size=20px;">Prueba tecnica para Pwc.</h1>
+<h1 style="font-size:20px;">Prueba tecnica para Pwc.</h1>
 Empresa: Pwc.  
 Entrevistado: Jerónimo Alvarez Tablado.  
 
