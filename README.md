@@ -27,8 +27,9 @@ Bonus:
 Las consultas que se le pueden realizar a la API desarrollada son:  
 
 Civil Status  
-    Agegar Civil Status - POST  
-    /api/civilstatus  
+
+    Agegar Civil Status  
+    /api/civilstatus - POST  
         {  
             "name": "Soltero"  
         }  
@@ -42,6 +43,7 @@ Civil Status
         }  
 
 Course  
+
     Obtener un curso  
         /api/courses/{course_id} - GET  
 
@@ -73,6 +75,7 @@ Course
         /api/courses/remove/{course_id}/student/{student_id} - GET  
 
 Department  
+
     Agregar un departamento  
         /api/departments - POST  
             {  
@@ -88,10 +91,12 @@ Department
             }  
 
 Person  
+
     Cambiar estado civil de una persona  
         /api/persons/{person_id}/changestatus/{status_id} - GET  
 
 Section  
+
     Agregar nueva seccion  
         /api/sections - POST  
             {  
@@ -107,6 +112,7 @@ Section
             }  
 
 ServiceStaff  
+
     Cambiar empleado de servicio de seccion  
         /api/services/{serviceStaff_id}/changesection/{section_id} - GET  
 
@@ -138,6 +144,7 @@ ServiceStaff
 
 
 Student  
+
     Agregar nuevo estudiante  
         /api/students - POST  
             {  
@@ -159,6 +166,7 @@ Student
             }  
 
 Teacher  
+
     Cambiar profesor de departamento  
         /api/teachers/{teacher_id}/changedepartment/{department_id} - GET  
 
